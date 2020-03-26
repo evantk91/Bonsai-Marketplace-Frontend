@@ -1,0 +1,10 @@
+.cover-photo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cover-photo {
+    width: 600px;
+    margin-bottom: 50px;
+}
