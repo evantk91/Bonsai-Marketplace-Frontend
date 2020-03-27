@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.login-form-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.login-form label{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display SC', serif;
+}
+  
+.login-form input{
+    background-color: white;
+    margin-bottom: 20px;
+}
+  
+.login-form-submit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.login-form-submit {
+    background-color: white;
+    font-size: 30px;
+    width: 40%;
+}
+
+.login-form-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

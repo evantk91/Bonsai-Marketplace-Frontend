@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
 
-.signup-form-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-  
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -34,6 +28,7 @@
   
 .signup-form input{
     background-color: white;
+    margin-bottom: 20px;
 }
   
 .signup-form-submit-container{
@@ -42,10 +37,18 @@
     justify-content: center;
 }
   
-.signup-form-submit{
+.signup-form-submit {
     background-color: white;
     font-size: 30px;
-    width: 30%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 40%;
+}
+
+.signup-form-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
