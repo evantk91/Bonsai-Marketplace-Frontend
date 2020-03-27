@@ -34,7 +34,7 @@ class UserSignup extends Component {
                 <h2 className="signup-form-header">Sign up below</h2>
                 <input name="username" value={this.state.username} onChange={this.handleChange} placeholder="username"/>
                 <input name="email" value={this.state.email} onChange={this.handleChange} placeholder="email"/>
-                <input name="password" value={this.state.password} onChange={this.handleChange} placeholder="password"/>
+                <input type="password" name="password" value={this.state.password} onChange={this.handleChange} placeholder="password"/>
                 <div className="signup-form-submit-container">
                     <input className="signup-form-submit" value="sign up here" type="submit" />
                 </div>

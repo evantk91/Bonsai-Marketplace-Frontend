@@ -23,7 +23,6 @@ class App extends Component {
     .then(result => {
       localStorage.setItem("token", result.token)
       this.setState({user: result.user_id})
-  
     })
   }
 
