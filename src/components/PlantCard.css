@@ -1,0 +1,42 @@
+
+.plant-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.plant-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.plant-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plant-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+.plant-detail {
+    color: black;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.plant-detail span{
+    color: black;
+    align-items: center;
+    background-color: lightblue;
+}
